@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Busstand | MySurroundings</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(circle at center, #0f2027, #203a43, #2c5364);
+      color: #00ffe0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+    .image-box {
+      max-width: 500px;
+      border: 4px solid #00ffe0;
+      box-shadow: 0 0 25px #00ffe0;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .image-box img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .text-box {
+      max-width: 500px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      text-shadow: 0 0 15px #00ffe0;
+    }
+    p {
+      font-size: 1.1rem;
+      text-shadow: 0 0 10px #000;
+    }
+    .back-btn {
+      margin-top: 40px;
+      padding: 12px 24px;
+      border: 2px solid #00ffe0;
+      color: #00ffe0;
+      background: transparent;
+      border-radius: 10px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .back-btn:hover {
+      background-color: #00ffe0;
+      color: #000;
+      box-shadow: 0 0 15px #00ffe0;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚌 Karur New Central Busstand</h1>
+  <div class="content">
+    <div class="image-box">
+      <img src="busstand.jpg" alt="Busstand Image">
+    </div>
+    <div class="text-box">
+      <p>The pulse of the city’s transport. Buses to every corner of Tamil Nadu and beyond. Always buzzing, always moving.</p>
+    </div>
+  </div>
+  <a class="back-btn" href="map.html">← Back to Map Interface</a>
+</body>
+</html>

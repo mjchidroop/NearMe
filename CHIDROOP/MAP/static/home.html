@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY HOME | MySurroundings</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #ff6ec4, #7873f5, #00ffe0);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 20px #fff;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      text-shadow: 0 0 10px #000;
+    }
+
+    .image-box {
+      max-width: 500px;
+      border: 4px solid #00ffe0;
+      box-shadow: 0 0 25px #00ffe0, 0 0 50px #00ffe0 inset;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      animation: pulseGlow 2s infinite;
+    }
+
+    .image-box img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    @keyframes pulseGlow {
+      0% {
+        box-shadow: 0 0 25px #00ffe0, 0 0 50px #00ffe0 inset;
+      }
+      50% {
+        box-shadow: 0 0 40px #00ffe0, 0 0 80px #00ffe0 inset;
+      }
+      100% {
+        box-shadow: 0 0 25px #00ffe0, 0 0 50px #00ffe0 inset;
+      }
+    }
+
+    .back-btn {
+      margin-top: 40px;
+      padding: 12px 24px;
+      border: 2px solid white;
+      color: white;
+      background: transparent;
+      border-radius: 10px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .back-btn:hover {
+      background-color: white;
+      color: #000;
+      box-shadow: 0 0 15px white;
+    }
+  </style>
+</head>
+<body>
+  <h1> Welcome to MY HOME</h1>
+
+  <div class="image-box">
+    <img src="home.jpg" alt="My Home Image">
+  </div>
+
+  <p>This is the heart of your surroundings. A place of comfort, memories, and vibrant energy. You’ve arrived at the most special spot on your map.</p>
+
+  <a class="back-btn" href="map.html">← Back to Map Interface</a>
+</body>
+</html>
