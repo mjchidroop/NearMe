@@ -1,6 +1,7 @@
 # Ex04 Places Around Me
 ## Date: 06/10/2025
-
+## Devoloped by: CHIDROOP M J
+### Reference number: 25018548
 ## AIM
 To develop a website to display details about the places around my house.
 
@@ -25,7 +26,7 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
-```
+```html
 INDEX.html
 
 <!DOCTYPE html>
