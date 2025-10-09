@@ -27,7 +27,7 @@ Execute the programs and publish them.
 
 ## CODE
 ```html
-INDEX.html
+index.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -90,7 +90,7 @@ INDEX.html
 </body>
 </html>
 
-MAP.html
+map.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -308,7 +308,7 @@ MAP.html
 </body>
 </html>
 
-WALK'N'JOG.html
+walk-n-jog.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -391,7 +391,7 @@ WALK'N'JOG.html
 </body>
 </html>
 
-BUSSTAND.html
+busstand.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -474,7 +474,7 @@ BUSSTAND.html
 </body>
 </html>
 
-COLLEGE.html
+college.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -557,7 +557,7 @@ COLLEGE.html
 </body>
 </html>
 
-TEMPLE.html
+temple.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -656,7 +656,7 @@ TEMPLE.html
 </body>
 </html>
 
-CYBERNAUT.html
+cybernaut.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -755,7 +755,7 @@ CYBERNAUT.html
 </body>
 </html>
 
-HOME.html
+home.html
 
 <!DOCTYPE html>
 <html lang="en">
